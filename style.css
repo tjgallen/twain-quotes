@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-image: url('http://static1.squarespace.com/static/57671a0b5016e10f950feb0b/5767219b59cc682f7531176e/5778910bc534a5650848f32f/1467520106500/Mark_Twain.jpg?format=1500w');
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: rgb(228, 228, 238);
+  font-size: 4rem;
+  display: flex;
+  justify-content: left;
+  margin: 50px 50px 20px 50px;
+  font-family: 'Cinzel', serif;
+}
+h2 {
+  color: rgb(228, 228, 238);
+  font-size: 3rem;
+  display: flex;
+  justify-content: left;
+  margin: 50px;
+  font-family: 'Cinzel', serif;
+}
+
+/* p {
+  color: white;
+  display: flex;
+  justify-content: left;
+  margin: 50px;
+} */
+
+/* button {
+  font
+  background-color: ivory;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+} */
+button {
+  padding: 15px 32px;
+  border-radius: 5px;
+  transition: 0.1s;
+  display: flex;
+  justify-self: flex-start;
+  margin-left: 150px;
+  margin-top: 5rem;
+}
+
+button:hover {
+  background-color: rgb(219, 195, 195);
+  color: black;
+  border: thin solid black;
+  opacity: 0.8;
+  font-size: 20px;
+}
+
+#quoteDisplay {
+  margin-left: 20px;
+  margin-top: 7rem;
+  padding: 1em 1em 1em 1em;
+  width: 50%;
+  height: 150px;
+  color: white;
+  font-size: 30px;
+}
+
+@media screen and (max-device-width: 800px) and (max-device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
+  p {
+    font-size: 1em;
+  }
+}
